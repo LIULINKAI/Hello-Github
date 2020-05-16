@@ -180,7 +180,8 @@ public:
 ### 数独
 
 题目描述(poj 2676)：Sudoku is a very simple task. A square table with 9 rows and 9 columns is divided to 9 smaller squares 3x3 as shown on the Figure. In some of the cells are written decimal digits from 1 to 9. The other cells are empty. The goal is to fill the empty cells with decimal digits from 1 to 9, one digit per cell, in such way that in each row, in each column and in each marked 3x3 subsquare, all the digits from 1 to 9 to appear. Write a program to solve a given Sudoku-task.
-![img](C:%5CUsers%5CASUS%5CDocuments%5C56e7e6182093bbca488d6c73ba833af6)
+![img]("C:%5CUsers%5CASUS%5CDocuments%5C56e7e6182093bbca488d6c73ba833af6")
+![数独](https://imgconvert.csdnimg.cn/aHR0cDovL3Bvai5vcmcvaW1hZ2VzLzI2NzZfMS5qcGc?x-oss-process=image/format,png#pic_center)
 
 Input
 
