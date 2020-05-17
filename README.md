@@ -180,7 +180,6 @@ public:
 ### 数独
 
 题目描述(poj 2676)：Sudoku is a very simple task. A square table with 9 rows and 9 columns is divided to 9 smaller squares 3x3 as shown on the Figure. In some of the cells are written decimal digits from 1 to 9. The other cells are empty. The goal is to fill the empty cells with decimal digits from 1 to 9, one digit per cell, in such way that in each row, in each column and in each marked 3x3 subsquare, all the digits from 1 to 9 to appear. Write a program to solve a given Sudoku-task.
-![img]("C:%5CUsers%5CASUS%5CDocuments%5C56e7e6182093bbca488d6c73ba833af6")
 ![数独](https://imgconvert.csdnimg.cn/aHR0cDovL3Bvai5vcmcvaW1hZ2VzLzI2NzZfMS5qcGc?x-oss-process=image/format,png#pic_center)
 
 Input
@@ -234,7 +233,7 @@ Sample Output
 
 数组rect[10][10]的功能则是标志九个$3\times3$小方块中每个小方块的九个不同数字；
 **例如**：如果第 m 个小方块中数字2已经存在，则rect[m][2]的值将会从0变为1，表示第 m 个小方块已经存在数字2；
-![2](C:%5CUsers%5CASUS%5CDocuments%5C20200503113413304.png)
+![小矩阵](https://img-blog.csdnimg.cn/20200503113413304.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjI5NTI5Mg==,size_16,color_FFFFFF,t_70#pic_center)
 
 **第二步：**
 在输入数字内容的同时将不为0的位置对应的行数组、列数组、小方块数组中的数字标记为1（表示此数字已经存在，便于下一步填充表格时判断数字是否可用），输入完成之后，从数独表格的左上角第一个元素开始进行深度优先搜索；
@@ -359,7 +358,7 @@ int main()
 2. Flip the chosen piece and also all adjacent pieces to the left, to the right, to the top, and to the bottom of the chosen piece (if there are any).
 
 
-![img](C:%5CUsers%5CASUS%5CDocuments%5C14b4b3ec0b5261bea3a5ad9f1313252c)Consider the following position as an example:
+![棋盘](http://poj.org/images/1753_1.jpg)
 
 bwbw
 wwww
@@ -517,7 +516,7 @@ int main()
 
 例如，给定如下二叉树:  root = [3,5,1,6,2,0,8,null,null,7,4]
 
-![二叉树](C:%5CUsers%5CASUS%5CDocuments%5Cbinarytree.png)
+![二叉树](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/15/binarytree.png)
 
 示例 1:
 
@@ -1026,7 +1025,7 @@ public:
 
 [原文链接]: https://blog.csdn.net/weixin_46295292/article/details/105853440
 
-![在这里插入图片描述](C:%5CUsers%5CASUS%5CDocuments%5C20200430090255757.png)
+![蛋糕](https://img-blog.csdnimg.cn/20200430090255757.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NjI5NTI5Mg==,size_16,color_FFFFFF,t_70#pic_center)
 
 蛋糕的体积：$V=Nπ=πR_1^2H_1+πR_2^2H_2+...+πR_n^2H_n$
 
